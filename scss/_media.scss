@@ -1,0 +1,394 @@
+@import "vars";
+//  media for 992px
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0 31px;
+  }
+  .header {
+    .header__img {
+      max-width: 90px;
+      height: 45px;
+      object-fit: contain;
+    }
+    .header__btn {
+      padding: 11px 40px;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+}
+
+.menu__link {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+// media for 767
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+  .header {
+    margin: 39px 0 0;
+    padding: 0;
+    &__btn {
+      display: none;
+    }
+    &__toggle {
+      display: block;
+      border: none;
+      background-color: $purewhite;
+      color: $black;
+    }
+  }
+  .menu {
+    display: none;
+  }
+}
+
+// media for 575
+@media screen and (max-width: 575px) {
+  .header {
+    padding: 35px 0 35px;
+    &__toggle {
+      width: 50px;
+    }
+  }
+  .container {
+    max-width: 493px;
+  }
+}
+
+// media for 320
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 0 14px 0 15px;
+  }
+
+  .header {
+    .header__img {
+      max-width: 71px;
+      max-height: 36px;
+    }
+
+    .header__burger {
+      max-width: 33.53px;
+      max-height: 19px;
+    }
+  }
+
+  .menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: $accent;
+  }
+
+  .hero {
+    .hero__img {
+      max-width: 299px;
+      max-height: 299px;
+    }
+
+    .hero__title {
+      margin: 15px 30px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #000000;
+    }
+
+    .hero__text {
+      margin: 20px 0 35px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #8f95a5;
+    }
+
+    .hero__link {
+      padding: 18px 99px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      margin: 0;
+    }
+  }
+
+  .skills {
+    .skills__speak {
+      max-width: 290px;
+      min-height: 600px;
+      background: #f5f5f5;
+      border-radius: 5px;
+      margin: 0 0 21px 0;
+    }
+
+    .speak__img {
+      max-width: 213px;
+      max-height: 213px;
+      margin: 8px 38px 10px 38px;
+    }
+
+    .speak__title {
+      padding: 0 13px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 80px;
+      color: #263238;
+    }
+
+    .speak__text {
+      padding: 0 16px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .speak__btn {
+      margin: 30px 16px 45px;
+      padding: 14px 43px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .skills__writ {
+      margin: 0 0 21px 0;
+      width: 290px;
+      height: 473px;
+    }
+
+    .writ__img {
+      max-width: 204px;
+      max-height: 204px;
+      margin: 16px 42px 11px 44px;
+    }
+
+    .writ__title {
+      padding: 0 13px;
+      font-size: 18px;
+      line-height: 80px;
+      margin: -10px 0 0 0;
+    }
+
+    .writ__text {
+      margin: -20px 0 0 0;
+      padding: 0 16px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .writ__btn {
+      margin: 30px 16px 45px;
+      padding: 14px 43px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .skills__read {
+      margin: 0 0 21px 0;
+      width: 290px;
+      height: 473px;
+    }
+
+    .read__img {
+      max-width: 236px;
+      max-height: 157px;
+      margin: 26px 25px 20px 29px;
+    }
+
+    .read__title {
+      padding: 0 13px;
+      font-size: 18px;
+      line-height: 80px;
+    }
+
+    .read__text {
+      padding: 0 16px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .read__btn {
+      margin: 30px 16px 45px;
+      padding: 14px 43px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .skills__listen {
+      margin: 0 0 21px 0;
+      width: 290px;
+      height: 473px;
+    }
+
+    .listen__img {
+      max-width: 232px;
+      max-height: 154px;
+      margin: 33px 29px 19px 29px;
+    }
+
+    .listen__title {
+      padding: 0 13px;
+      font-size: 18px;
+      line-height: 80px;
+    }
+
+    .listen__text {
+      padding: 0 16px;
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .listen__btn {
+      margin: 30px 16px 45px;
+      padding: 14px 43px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+  .about {
+    .about__img {
+      width: 283px;
+      height: 283px;
+    }
+  }
+
+  .about__title {
+    display: none;
+  }
+
+  .about__text {
+    margin: 23px 0 0;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .about__menu {
+    text-align: center;
+  }
+
+  .about__li > strong {
+    font-size: 24px;
+    line-height: 80px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about__p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  .blog {
+    .blog__item-img {
+      margin: 0 27px 0 45px;
+      max-width: 248px;
+      max-height: 248px;
+    }
+
+    .blog__item {
+      text-align: center;
+    }
+
+    .blog__img {
+      margin: 63px 32px 0 32px;
+    }
+
+    .blog__img-1 {
+      margin: 72px 40px 0 40px;
+    }
+
+    .blog__title {
+      font-size: 18px;
+      line-height: 28px;
+      margin: 7px 0 30px;
+    }
+
+    .blog__leed {
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+    }
+
+    .blog__link {
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      padding: 5px 15px 5px 12px;
+      margin: 31px 0 0;
+    }
+  }
+
+  .contact {
+    .contact__img {
+      max-width: 253px;
+      max-height: 228px;
+      margin: 0 23px 38px 44px;
+    }
+
+    .contact__title {
+      display: none;
+    }
+
+    .contact__text {
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+    }
+
+    .contact__form {
+      text-align: center;
+    }
+
+    .contact__in {
+      padding: 0;
+      margin: 31px 0 17px;
+      width: 291px;
+      height: 50px;
+    }
+
+    .contact__btn {
+      min-width: 290px;
+      min-height: 60px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+  .footer {
+    .footer__blog {
+      text-align: center;
+      margin: 57px 0 0;
+    }
+
+    .footer__logo {
+      margin: 26px 0 0;
+      width: 71px;
+      height: 36px;
+    }
+
+    .footer__text {
+      font-size: 11px;
+      line-height: 16px;
+      margin: 0;
+    }
+  }
+}
